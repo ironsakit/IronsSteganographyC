@@ -17,10 +17,11 @@ Questo progetto dimostra come manipolare direttamente i file binari e la struttu
 Il formato PNG è composto da vari blocchi (chunk) come `IHDR` (header), `IDAT` (dati immagine) e `IEND` (fine). 
 Questo programma sfrutta la flessibilità del formato per creare un chunk non standard chiamato **`prIv`**. 
 1. I visualizzatori di immagini normali non riconoscono il blocco `prIv` e lo ignorano, mostrando l'immagine normalmente.
-2. Il nostro estrattore, invece, "salta" i blocchi standard calcolando dinamicamente i byte da ignorare tramite la funzione `fseek`, fino a scovare e decodificare il blocco `prIv`.
+2. L'estrattore, invece, "salta" i blocchi standard calcolando dinamicamente i byte da ignorare tramite la funzione `fseek`, fino a scovare e decodificare il blocco `prIv`.
 
 ## 3. Prerequisiti e Compilazione
 Il progetto è stato sviluppato in ambiente Windows. Utilizza la libreria di sistema `winsock2.h` per la gestione dell'endianness.
+TODO: renderlo portatile.
 
 ### 4. Compilazione manuale (GCC/MinGW)
 Per compilare il programma da riga di comando, assicurati di linkare la libreria `ws2_32`:

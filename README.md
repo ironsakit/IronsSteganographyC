@@ -1,4 +1,4 @@
-# 🕵️‍♂️ PNG Steganography in C
+# PNG Steganography in C
 
 Un tool leggero e a basso livello scritto in C per nascondere messaggi di testo segreti all'interno di immagini PNG, senza alterare in alcun modo l'aspetto visivo dell'immagine originale.
 

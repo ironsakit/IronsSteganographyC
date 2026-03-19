@@ -21,7 +21,7 @@ Questo programma sfrutta la flessibilità del formato per creare un chunk non st
 
 ## 3. Prerequisiti e Compilazione
 Il progetto è stato sviluppato in ambiente Windows. Utilizza la libreria di sistema `winsock2.h` per la gestione dell'endianness.
-TODO: renderlo portatile.
+<br>`TODO`: renderlo portatile.
 
 ### 4. Compilazione manuale (GCC/MinGW)
 Per compilare il programma da riga di comando, assicurati di linkare la libreria `ws2_32`:

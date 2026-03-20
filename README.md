@@ -2,7 +2,7 @@
 
 Un tool leggero e a basso livello scritto in C per nascondere messaggi di testo segreti all'interno di immagini PNG, senza alterare in alcun modo l'aspetto visivo dell'immagine originale.
 
-**Autore:** Ferra Mattia
+**Autore:** Ferro Mattia
 
 ## 1. Descrizione
 Questo progetto dimostra come manipolare direttamente i file binari e la struttura a blocchi (chunk) del formato PNG. Il programma legge un'immagine valida, inietta un chunk personalizzato contenente il messaggio segreto e ricalcola i codici di controllo, generando un "clone" infetto ma perfettamente leggibile dai normali visualizzatori di immagini.
